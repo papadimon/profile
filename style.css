@@ -1,0 +1,101 @@
+h1 {
+  color: #C07F00;
+  font-family: 'Lustria', serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #C07F00;
+  font-family: 'Lustria', serif;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.font-crimson {
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  color: #C07F00;
+  font-size: 50px;
+}
+
+.small-font {
+  font-size: 20px;
+}
+
+.btn-link {
+  background: #C07F00;
+  width: 50px;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-link:hover {
+  background: #4C3D3D;
+  color: white;
+}
+
+a:hover {
+  color: #4C3D3D;
+}
+
+body {
+  background-color: #FFF7D4;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 0.5px solid rgb(216, 216, 216);
+  margin: 30px;
+  box-shadow: 5px 5px 5px rgb(216, 216, 216);
+}
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
